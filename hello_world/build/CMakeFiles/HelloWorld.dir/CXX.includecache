@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/hello_world.cpp
+omp.h
+/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/omp.h
+stdio.h
+/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/stdio.h
+
