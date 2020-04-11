@@ -22,7 +22,7 @@ int main()
     double time_start;
     double time_end;
 
-    step = 1.0/(double) num_steps;
+    step = 1.0/(double) num_steps; 
 
     // Requesting the number of threads given
     omp_set_num_threads(NUM_THREADS);
