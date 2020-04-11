@@ -24,10 +24,14 @@ ENDIF()
 add_executable(${PROJECT_NAME}_NumIntNoParallel num_int_no_parallel.cpp)
 add_executable(${PROJECT_NAME}_NumIntParallelFalseSharing num_int_paralel_falsesharing.cpp)
 add_executable(${PROJECT_NAME}_NumIntParallelNoFalseSharing num_int_paralel_nofalsesharing.cpp)
+add_executable(${PROJECT_NAME}_NumIntParallelCriticalSync num_int_paralel_criticalsync.cpp)
+add_executable(${PROJECT_NAME}_NumIntParallelAtomicSync num_int_paralel_atomicsync.cpp)
 
 ###
 install(TARGETS ${PROJECT_NAME}_NumIntNoParallel DESTINATION bin)
 install(TARGETS ${PROJECT_NAME}_NumIntParallelFalseSharing DESTINATION bin)
 install(TARGETS ${PROJECT_NAME}_NumIntParallelNoFalseSharing DESTINATION bin)
+install(TARGETS ${PROJECT_NAME}_NumIntParallelCriticalSync DESTINATION bin)
+install(TARGETS ${PROJECT_NAME}_NumIntParallelAtomicSync DESTINATION bin)
 
  
