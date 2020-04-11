@@ -1,7 +1,0 @@
-/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/build/CMakeFiles/install/strip.dir
-/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/build/CMakeFiles/edit_cache.dir
-/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/build/CMakeFiles/HelloWorld.dir
-/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/build/CMakeFiles/list_install_components.dir
-/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/build/CMakeFiles/install/local.dir
-/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/build/CMakeFiles/rebuild_cache.dir
-/home/xxxxxqqqqq/Projects/ParallelComputingDev/hello_world/build/CMakeFiles/install.dir
