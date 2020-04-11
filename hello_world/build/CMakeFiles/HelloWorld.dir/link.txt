@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++0x -fopenmp -O3 -DNDEBUG    CMakeFiles/HelloWorld.dir/hello_world.cpp.o  -o HelloWorld 
+/usr/bin/c++   -std=c++0x -fopenmp    CMakeFiles/HelloWorld.dir/hello_world.cpp.o  -o HelloWorld 
