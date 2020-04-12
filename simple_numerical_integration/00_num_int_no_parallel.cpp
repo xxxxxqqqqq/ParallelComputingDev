@@ -2,7 +2,7 @@
 #include "omp.h"
 #include "stdio.h"
 
-static long num_steps = 100000;
+static long num_steps = 100000000;
 double step;
 
 // This is solving -> f(x) = Integral(from 0 to 1) 4.0/(1+x^2) dx -> The answer should be "pi"
