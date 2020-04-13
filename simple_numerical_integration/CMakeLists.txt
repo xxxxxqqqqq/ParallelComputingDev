@@ -27,6 +27,7 @@ add_executable(${PROJECT_NAME}_NumIntParallelNoFalseSharing 02_num_int_paralel_n
 add_executable(${PROJECT_NAME}_NumIntParallelCriticalSync 03_num_int_paralel_criticalsync.cpp)
 add_executable(${PROJECT_NAME}_NumIntParallelAtomicSync 04_num_int_paralel_atomicsync.cpp)
 add_executable(${PROJECT_NAME}_NumIntParallelLoopConstruct 05_num_int_paralel_loopconstruct.cpp)
+add_executable(${PROJECT_NAME}_NumIntParallelWithSmallestChanges 06_num_int_paralel_withsmallestchanges.cpp)
 
 ###
 install(TARGETS ${PROJECT_NAME}_NumIntNoParallel DESTINATION bin)
@@ -35,5 +36,6 @@ install(TARGETS ${PROJECT_NAME}_NumIntParallelNoFalseSharing DESTINATION bin)
 install(TARGETS ${PROJECT_NAME}_NumIntParallelCriticalSync DESTINATION bin)
 install(TARGETS ${PROJECT_NAME}_NumIntParallelAtomicSync DESTINATION bin)
 install(TARGETS ${PROJECT_NAME}_NumIntParallelLoopConstruct DESTINATION bin)
+install(TARGETS ${PROJECT_NAME}_NumIntParallelWithSmallestChanges DESTINATION bin)
 
  
